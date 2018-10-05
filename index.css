@@ -4,7 +4,7 @@ body header {
   background-color: black;
   border-bottom: 2px solid white;
 }
-div {
+#werbung {
   width: 100%;
   height: 10em;
   background-color: black;
@@ -35,21 +35,39 @@ footer {
   height: 5em;
   background-color: black;
   border-bottom: 2px solid white;
+  clear: left;
 }
 
 @media screen and (min-width: 1600px) {
-  div {
+  #werbung {
     width: 80%;
     height: 10em;
-    background-color: black;
-    border-bottom: 2px solid white;
     margin: auto;
   }
   .breadcrumb {
     width: 75%;
     height: 2em;
-    background-color: black;
-    border-bottom: 2px solid white;
     margin: auto;
+  }
+  .center {
+    position: relative;
+    left: 12.5%;
+  }
+  #top_article {
+    float: left;
+    width: 50%;
+    height: 80em;
+  }
+  aside {
+    width: 25%;
+    height: 80em;
+    border-left: 2px solid white;
+    float: left;
+  }
+  #bottom_article {
+    margin: auto;
+    width: 100%;
+    height: 80em;
+    clear: left;
   }
 }
