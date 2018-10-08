@@ -1,10 +1,11 @@
 body header {
   width: 100%;
-  height: 5em;
+  height: 10em;
   background-color: black;
   border-bottom: 2px solid white;
 }
-#werbung {
+
+.werbung {
   width: 100%;
   height: 10em;
   background-color: black;
@@ -23,10 +24,10 @@ body header {
   background-color: black;
   border-bottom: 2px solid white;
 }
-aside {
+.left-aside {
   width: 100%;
   height: 20em;
-  background-color: black;
+  background-color: rgb(179, 179, 179);
   border-bottom: 2px solid white;
 }
 
@@ -35,11 +36,10 @@ footer {
   height: 5em;
   background-color: black;
   border-bottom: 2px solid white;
-  clear: left;
 }
 
 @media screen and (min-width: 1600px) {
-  #werbung {
+  .werbung {
     width: 80%;
     height: 10em;
     margin: auto;
@@ -50,24 +50,21 @@ footer {
     margin: auto;
   }
   .center {
-    position: relative;
-    left: 12.5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
   }
-  #top_article {
-    float: left;
+  .top_article {
     width: 50%;
     height: 80em;
   }
-  aside {
+  .left-aside {
     width: 25%;
     height: 80em;
-    border-left: 2px solid white;
-    float: left;
   }
-  #bottom_article {
+  .bottom_article {
     margin: auto;
     width: 100%;
     height: 80em;
-    clear: left;
   }
 }
