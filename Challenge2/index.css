@@ -54,11 +54,12 @@ input[type="search"] {
 .breadcrumb {
   height: 50px;
   list-style: none;
-  display: flex;
-  flex-direction: row;
   background-color: white;
   padding-top: 40px;
   margin-top: -20px;
+}
+.breadcrumb li {
+  float: left;
 }
 .breadcrumb li a {
   text-decoration: none;
