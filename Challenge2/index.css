@@ -24,18 +24,16 @@ body header {
   margin: 0px 16px 0px 16px;
 }
 
+/*stage****************************************/
 .stage {
-  height: 358px;
+  height: 386px;
   background-color: #199bf1;
   color: white;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-size: 14px;
 }
 .image {
-  width: 100%;
-}
-.innerbox {
-  margin: 0px 16px 0px 16px;
+  max-width: 100%;
 }
 .headline {
   font-size: 20px;
