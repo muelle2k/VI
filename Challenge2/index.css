@@ -149,10 +149,52 @@ tr td {
 .citation {
   font-size: 30px;
 }
+
+/*form******************************************/
+.form {
+  max-width: 100%;
+  height: 1000px;
+  margin-top: -36px;
+  color: rgb(90, 90, 90);
+  background-color: white;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.headline-form {
+  font-size: 26px;
+}
+form > input[type] {
   width: 100%;
-  height: 900px;
-  background-color: rgba(241, 216, 103, 0.863);
-  margin-bottom: 18px;
+}
+select {
+  width: 100%;
+  padding: 10px 0px 10px 0px;
+}
+input[email] {
+  width: 100%;
+  padding: 10px 0px 10px 0px;
+}
+hr {
+  margin-top: 20px;
+  color: rgb(211, 211, 211);
+}
+.sendbutton {
+  margin-top: 20px;
+  color: white;
+  background-color: #34a7f3;
+  padding: 5px 5px 5px 5px;
+  border: 1px solid gainsboro;
+}
+.cancelbutton {
+  margin-top: 20px;
+  color: white;
+  background-color: #aaaaaa;
+  padding: 5px 5px 5px 5px;
+  border: 1px solid gainsboro;
+}
+.buttoninformation {
+  margin-top: 1px;
+}
+
 }
 .teaser {
   width: 100%;
