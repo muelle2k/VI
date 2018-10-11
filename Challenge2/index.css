@@ -346,19 +346,20 @@ footer a {
   float: left;
 }
 
-@media screen and (min-width: 1600px) {
+/*
+@media screen and (min-max-width: 1600px) {
   body header {
-    width: 1600px;
+    max-width: 1600px;
     height: 125px;
     margin-bottom: 4px;
   }
 
   .stage {
-    width: 1280px;
+    max-width: 1280px;
     height: 400px;
   }
   .breadcrumb {
-    width: 1200px;
+    max-width: 1200px;
     height: 45px;
   }
   .center {
@@ -367,25 +368,25 @@ footer a {
     justify-content: center;
   }
   .top-article {
-    width: 890px;
+    max-width: 890px;
     height: 2000px;
   }
   .left-aside {
-    width: 300px;
+    max-width: 300px;
     height: 2000px;
     margin-left: 10px;
   }
   .teaser {
-    width: 1600px;
+    max-width: 1600px;
     height: 1800px;
     margin-bottom: 10px;
   }
   footer {
-    width: 1600px;
+    max-width: 1600px;
     height: 80px;
   }
   .centered {
     display: grid;
     justify-items: center;
   }
-}
+}*/
