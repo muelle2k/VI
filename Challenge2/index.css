@@ -100,8 +100,10 @@ body header {
   max-width: 100%;
   height: 160px;
 }
+/*formatsection***********************************/
 .formatsection {
-  width: 100%;
+  z-index: 1;
+  max-width: 100%;
   height: 700px;
   margin-top: -26px;
   color: rgb(90, 90, 90);
@@ -114,12 +116,12 @@ body header {
 .ul li {
   padding-bottom: 10px;
   position: relative;
-  left: -25px;
+  left: -15px;
 }
 .ul-link {
   padding-bottom: 10px;
   position: relative;
-  left: -25px;
+  left: -15px;
 }
 
 .ul-link li a {
