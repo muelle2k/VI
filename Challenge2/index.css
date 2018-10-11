@@ -195,7 +195,58 @@ hr {
   margin-top: 1px;
 }
 
+/*aside contactinformation***********************/
+.left-aside {
+  max-width: 100%;
+  height: 400px;
+  background-color: white;
+  margin-top: -28px;
+  color: rgb(90, 90, 90);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
+.headline-contactsection {
+  font-size: 20px;
+}
+.contact-upperline {
+  margin-bottom: 20px;
+  color: rgb(211, 211, 211);
+}
+.contactimage {
+  float: left;
+  margin-right: 20px;
+}
+.contactinformation {
+  width: 260px;
+  font-size: 14px;
+}
+.telefon {
+  position: relative;
+  left: 140px;
+  top: 30px;
+}
+.contactname {
+  float: right;
+  margin-top: -10px;
+  font-size: 15px;
+}
+.telefonnumber {
+  font-size: 15px;
+  margin-top: -10px;
+}
+.email {
+  position: relative;
+  top: 20px;
+  left: 155px;
+}
+.link {
+  text-decoration: none;
+  color: #34a7f3;
+}
+.contact-underline {
+  margin-top: 40px;
+  color: rgb(211, 211, 211);
+}
+
 .teaser {
   width: 100%;
   height: 1800px;
