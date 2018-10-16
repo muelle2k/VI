@@ -59,20 +59,24 @@ body header {
 
 /*breadcrumb**************************************/
 .breadcrumb {
-  height: 50px;
   list-style: none;
   background-color: white;
-  padding-top: 40px;
-  margin-top: -20px;
+  float: left;
+  padding-left: 0px;
 }
 .breadcrumb li {
   float: left;
 }
 .breadcrumb li a {
   text-decoration: none;
-  padding-right: 18px;
-  font-size: 16px;
+  padding-left: 15px;
+  font-size: 14px;
+}
+.bluelist {
   color: #34a7f3;
+}
+.greylist {
+  color: rgb(168, 168, 168);
 }
 
 /*general information for the sections**************/
