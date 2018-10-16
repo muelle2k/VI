@@ -105,7 +105,10 @@ body header {
   margin-top: 40px;
 }
 .headline-section {
-  font-size: 26px;
+  font-size: 27px;
+  font-family: "Lato", sans-serif;
+  font-weight: 100;
+  color: rgb(124, 124, 124);
 }
 .video {
   max-width: 100%;
@@ -159,7 +162,10 @@ tr td {
   border: 1px solid grey;
 }
 .citation {
-  font-size: 30px;
+  font-family: "Lato", sans-serif;
+  font-weight: 100;
+  font-size: 26px;
+  color: rgb(168, 168, 168);
 }
 
 /*form******************************************/
@@ -217,7 +223,10 @@ hr {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 .headline-contactsection {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
   font-size: 20px;
+  color: rgb(124, 124, 124);
 }
 .contact-upperline {
   margin-bottom: 20px;
@@ -225,11 +234,14 @@ hr {
 }
 .contactimage {
   float: left;
-  margin-right: 20px;
 }
 .contactinformation {
-  width: 260px;
-  font-size: 14px;
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-size: 15px;
+  color: rgb(90, 90, 90);
+  line-height: 1.35;
+  margin-top: 0px;
 }
 .telefon {
   position: relative;
