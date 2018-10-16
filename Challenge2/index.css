@@ -149,17 +149,20 @@ body header {
 /*table*******************************************/
 .table {
   font-size: 16px;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid silver;
+  text-align: left;
 }
 .table-1column {
   background-color: #34a7f3;
-  padding: 10px 50px 10px 10px;
-  border: 1px solid grey;
+  border: 1px solid silver;
   color: white;
+  padding: 10px 0 10px 6px;
 }
 tr td {
-  padding: 10px 50px 10px 10px;
-  border: 1px solid grey;
+  border: 1px solid silver;
+  padding: 10px 0 10px 6px;
 }
 .citation {
   font-family: "Lato", sans-serif;
