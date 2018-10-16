@@ -275,28 +275,28 @@ hr {
 /*teaserrow***************************************/
 .teaser {
   max-width: 100%;
-  height: 2200px;
   color: rgb(90, 90, 90);
   background-color: white;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-}
-.greybackground {
-  background-color: rgb(236, 236, 236);
-  height: 450px;
 }
 
 /*first teaser*************************************/
+.greybox {
+  width: 100%;
+  background-color: rgb(109, 109, 109);
+}
 .teaserimage {
   width: 100%;
   margin-top: 28px;
   border: 1px solid rgb(168, 168, 168);
 }
 .headline-teaser {
-  font-weight: 100;
-  font-size: 25px;
+  font-weight: 300;
+  font-size: 24px;
+  color: rgb(124, 124, 124);
 }
-.headline-teaser p {
-  line-height: 8px;
+.headline-teaser + p {
+  font-weight: 700;
+  color: rgb(109, 109, 109);
 }
 .link {
   text-decoration: none;
@@ -308,15 +308,18 @@ hr {
   margin-top: 50px;
 }
 .headline-2teaser {
-  font-weight: 100;
+  font-weight: 300;
   font-size: 20px;
+  color: rgb(124, 124, 124);
+  margin-bottom: 6px;
 }
 .secondteaser-image {
   width: 100%;
 }
 .headline-testvideo {
-  font-weight: 100;
+  font-weight: 300;
   font-size: 20px;
+  color: rgb(124, 124, 124);
   margin-bottom: 4px;
 }
 .videolength {
@@ -331,11 +334,14 @@ hr {
 
 /*thirdteaser***************************************/
 .headline-3teaser {
-  font-weight: 100;
+  font-weight: 300;
+  color: rgb(124, 124, 124);
   font-size: 28px;
 }
 .headline-testvid {
-  font-weight: 100;
+  font-weight: 300;
+  font-size: 20px;
+  color: rgb(124, 124, 124);
   margin-bottom: 4px;
 }
 .videocaption {
@@ -343,8 +349,12 @@ hr {
 }
 .videocaption + h3 {
   margin-top: 36px;
-  font-weight: 100;
-  font-size: 22px;
+  font-weight: 300;
+  font-size: 20px;
+  color: rgb(124, 124, 124);
+}
+.videocaption + h3 + p {
+  margin-top: -15px;
 }
 
 /*footer********************************************/
