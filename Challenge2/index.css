@@ -30,17 +30,17 @@ body header {
 
 /*stage****************************************/
 .stage {
-  height: 386px;
   background-color: #199bf1;
   color: white;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  padding-bottom: 30px;
   font-size: 14px;
+  margin-bottom: 26px;
 }
 .image {
   max-width: 100%;
 }
 .headline {
-  font-size: 20px;
+  font-size: 22px;
 }
 .headline + p {
   font-size: 16px;
