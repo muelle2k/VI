@@ -174,16 +174,16 @@ tr td {
 /*form******************************************/
 .form {
   max-width: 100%;
-  height: 1000px;
-  margin-top: -36px;
   color: rgb(90, 90, 90);
   background-color: white;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 .headline-form {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
   font-size: 26px;
+  color: rgb(124, 124, 124);
 }
-form > input[type] {
+.headline-form textarea {
   width: 100%;
 }
 select {
