@@ -112,8 +112,7 @@ main {
   color: rgb(124, 124, 124);
 }
 .video {
-  max-width: 100%;
-  height: 160px;
+  width: 100%;
 }
 
 /*formatsection***********************************/
@@ -371,7 +370,7 @@ hr {
   margin-top: -15px;
 }
 /*documentlist at the bottom********************************************/
-.documentlist h3 {
+.headline-documentlist {
   font-weight: 300;
   margin-bottom: 5px;
 }
