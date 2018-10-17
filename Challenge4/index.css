@@ -3,7 +3,6 @@ html {
   background-color: rgb(41, 41, 41);
 }
 body {
-  min-width: 320px;
   margin: auto;
   font-family: "Lato", sans-serif;
   color: rgb(124, 124, 124);
@@ -178,6 +177,23 @@ tr td {
   max-width: 100%;
   color: rgb(90, 90, 90);
   background-color: white;
+  margin-top: 55px;
+}
+form > input[type="text"] {
+  width: 100%;
+  height: 30px;
+}
+form > input[type="number"] {
+  width: 100%;
+  height: 30px;
+}
+form > input[type="email"] {
+  width: 100%;
+  height: 30px;
+}
+form textarea {
+  width: 100%;
+  height: 60px;
 }
 .headline-form {
   font-family: "Lato", sans-serif;
@@ -189,10 +205,6 @@ tr td {
   width: 100%;
 }
 select {
-  width: 100%;
-  padding: 10px 0px 10px 0px;
-}
-input[email] {
   width: 100%;
   padding: 10px 0px 10px 0px;
 }
@@ -273,7 +285,6 @@ hr {
   margin-top: 40px;
   color: rgb(211, 211, 211);
 }
-
 /*teaserrow***************************************/
 .teaser {
   max-width: 100%;
@@ -388,10 +399,7 @@ footer a {
   float: left;
 }
 
-@media screen and (max-width: 480px) {
-  body {
-    max-width: 480px;
-  }
+@media screen and (min-width: 480px) {
   /*navigation****************************/
   .ul-nav {
     visibility: visible;
@@ -448,27 +456,6 @@ footer a {
   .video {
     width: 100%;
   }
-  /*Form****************************/
-  form {
-    margin-top: 55px;
-  }
-  form > input[type="text"] {
-    width: 100%;
-    height: 30px;
-  }
-  form > input[type="number"] {
-    width: 100%;
-    height: 30px;
-  }
-  form > input[type="email"] {
-    width: 100%;
-    height: 30px;
-  }
-  form textarea {
-    width: 100%;
-    height: 60px;
-  }
-
   /*Contactcontainer****************************/
   .contactcontainer {
     width: 70%;
@@ -481,5 +468,7 @@ footer a {
   .documentlist {
     margin-top: 46px;
   }
-  /*teaser**********************/
+}
+
+@media screen and (min-width: 600px) {
 }
