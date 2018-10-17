@@ -471,4 +471,59 @@ footer a {
 }
 
 @media screen and (min-width: 600px) {
+  .image-imagesection {
+    margin: 6px 10px 20px 0px;
+  }
+  .buttoninformation {
+    margin-top: 26px;
+  }
+  .contactcontainer {
+    width: 74%;
+  }
+  .teaserimage {
+    width: 45%;
+  }
+  .teasercontainer {
+    float: right;
+    width: 45%;
+  }
+  .headline-teaser + p {
+    font-size: 14px;
+    font-weight: 700;
+  }
+  .image-documentlist {
+    width: 60%;
+  }
+  .link {
+    font-weight: 700;
+  }
+  .container {
+  }
+  .teaser2-container1 {
+    width: 47.5%;
+    float: left;
+  }
+  .teaser2-container {
+    width: 47.5%;
+    float: right;
+  }
+  .headline-testvideo {
+    margin-bottom: 6px;
+    margin-top: 18px;
+  }
+
+  .teaser-underline {
+    clear: both;
+  }
+  .wrapper {
+    display: grid;
+    grid-template: auto / 1fr 1fr;
+    grid-gap: 26px;
+  }
+  .videocaption {
+    margin-top: 42px;
+  }
+  .documentlist {
+    margin-top: 0;
+  }
 }
