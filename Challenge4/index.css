@@ -178,25 +178,28 @@ tr td {
 }
 
 /*form******************************************/
-.form {
+.form2 {
+  display: none;
+}
+.form1 {
   max-width: 100%;
   color: rgb(90, 90, 90);
   background-color: white;
   margin-top: 55px;
 }
-form > input[type="text"] {
+.form1 > input[type="text"] {
   width: 100%;
   height: 30px;
 }
-form > input[type="number"] {
+.form1 > input[type="number"] {
   width: 100%;
   height: 30px;
 }
-form > input[type="email"] {
+.form1 > input[type="email"] {
   width: 100%;
   height: 30px;
 }
-form textarea {
+.form1 textarea {
   width: 100%;
   height: 60px;
 }
