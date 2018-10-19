@@ -23,11 +23,9 @@ body header {
   border-radius: 8px;
 }
 .innerbox {
-  margin: 0px 16px 0px 16px;
+  margin: 0px 16px;
 }
-.ul-nav {
-  visibility: hidden;
-}
+
 /*stage****************************************/
 .stage {
   background-color: #199bf1;
@@ -35,20 +33,24 @@ body header {
   padding-bottom: 30px;
   font-size: 14px;
   margin-bottom: 26px;
+  position: relative;
 }
-.stageimage {
+.stage__image {
   width: 100%;
+}
+.stage__bluebox {
+  margin: 0 16px;
 }
 .image {
   max-width: 100%;
 }
-.headline {
+.stage__bluebox__headline {
   font-size: 22px;
 }
-.headline + p {
+.stage__bluebox__headline + p {
   font-size: 16px;
 }
-.button {
+.stage__bluebox__button {
   margin-top: 8px;
   background-color: white;
   border: solid white;
@@ -58,29 +60,28 @@ body header {
   font-size: 18px;
   padding-top: 3px;
 }
-
+nav ul {
+  display: none;
+}
 /*breadcrumb**************************************/
 .breadcrumb {
   margin-top: 20px;
 }
-.ul-breadcrumb {
+.breadcrumb__ul {
   list-style: none;
   background-color: white;
   padding-left: 0px;
 }
-.ul-breadcrumb li {
+.breadcrumb__ul li {
   float: left;
 }
-.ul-breadcrumb li a {
+.breadcrumb__ul li a {
   text-decoration: none;
   padding-left: 15px;
   font-size: 14px;
 }
-.bluelist {
+.breadcrumb__ul__li {
   color: #34a7f3;
-}
-.greylist {
-  color: rgb(168, 168, 168);
 }
 
 /*general information for the sections**************/
@@ -88,23 +89,24 @@ main {
   margin-top: 80px;
   clear: left;
 }
-.top-article {
+article {
   max-width: 100%;
   background-color: white;
   padding-bottom: 1px;
+  margin: 0 16px;
 }
-.headline1 {
+.article__headline {
   font-family: "Lato", sans-serif;
   font-weight: 300;
 }
-.headline-section {
+.videosection__headline {
   font-size: 26px;
   font-weight: 300;
 }
-.headline-imagesection {
+.imagesection__headline {
   font-weight: 300;
 }
-.content-section {
+.imagesection__text {
   font-weight: 400;
   color: rgb(75, 75, 75);
 }
@@ -112,13 +114,13 @@ main {
 .videosection {
   margin-top: 40px;
 }
-.headline-section {
+.videosection__headline {
   font-size: 27px;
   font-family: "Lato", sans-serif;
   font-weight: 100;
   color: rgb(124, 124, 124);
 }
-.video {
+.videosection__video {
   width: 100%;
 }
 
@@ -134,18 +136,18 @@ main {
 .p-formatsection {
   font-size: 26px;
 }
-.ul li {
+.formatsection__ul li {
   padding-bottom: 10px;
   position: relative;
   left: -15px;
 }
-.ul-link {
+.formatsection__ul__link {
   padding-bottom: 10px;
   position: relative;
   left: -15px;
 }
 
-.ul-link li a {
+.formatsection__ul__link li a {
   color: #34a7f3;
   display: block;
   margin-bottom: 20px;
@@ -154,14 +156,14 @@ main {
 }
 
 /*table*******************************************/
-.table {
+.formatsection__table {
   font-size: 16px;
   width: 100%;
   border-collapse: collapse;
   border: 1px solid silver;
   text-align: left;
 }
-.table-1column {
+.formatsection__table__1column {
   background-color: #34a7f3;
   border: 1px solid silver;
   color: white;
@@ -171,7 +173,7 @@ tr td {
   border: 1px solid silver;
   padding: 10px 0 10px 6px;
 }
-.citation {
+.formatsection__citation {
   font-family: "Lato", sans-serif;
   font-weight: 100;
   font-size: 26px;
@@ -179,38 +181,35 @@ tr td {
 }
 
 /*form******************************************/
-.form2 {
-  display: none;
-}
-.form1 {
+form {
   max-width: 100%;
   color: rgb(90, 90, 90);
   background-color: white;
   margin-top: 55px;
 }
-.form1 > input[type="text"] {
+form > input[type="text"] {
   width: 100%;
   height: 30px;
 }
-.form1 > input[type="number"] {
+form > input[type="number"] {
   width: 100%;
   height: 30px;
 }
-.form1 > input[type="email"] {
+form > input[type="email"] {
   width: 100%;
   height: 30px;
 }
-.form1 textarea {
+form textarea {
   width: 100%;
   height: 60px;
 }
-.headline-form {
+.form__headline {
   font-family: "Lato", sans-serif;
   font-weight: 300;
   font-size: 26px;
   color: rgb(124, 124, 124);
 }
-.headline-form textarea {
+.form__headline textarea {
   width: 100%;
 }
 select {
@@ -221,44 +220,49 @@ hr {
   margin-top: 20px;
   color: rgb(211, 211, 211);
 }
-.sendbutton {
+.form__button__send {
   margin-top: 20px;
   color: white;
   background-color: #34a7f3;
   padding: 5px 7.5px 5px 7.5px;
   border: 1px solid gainsboro;
 }
-.cancelbutton {
+.form__button__cancel {
   margin: 20px 0 0 5px;
   color: white;
   background-color: #c3c3c3;
   padding: 5px 7.5px 5px 7.5px;
   border: 1px solid gainsboro;
 }
-.buttoninformation {
+.form__p {
   margin-top: 1px;
 }
 
 /*aside contactinformation***********************/
-.aside {
+aside {
   max-width: 100%;
   background-color: white;
   color: rgb(90, 90, 90);
 }
-.headline-contactsection {
+.contact {
+  margin: 0 16px;
+  float: left;
+}
+.contact__headline {
   font-family: "Lato", sans-serif;
   font-weight: 300;
   font-size: 20px;
   color: rgb(124, 124, 124);
 }
-.contact-upperline {
+.contact__hr__top {
   margin-bottom: 20px;
   color: rgb(211, 211, 211);
 }
-.contactimage {
+.contact__image {
+  width: 40%;
   float: left;
 }
-.contactinformation {
+.contact__p {
   font-family: "Lato", sans-serif;
   font-weight: 700;
   font-size: 15px;
@@ -266,17 +270,12 @@ hr {
   line-height: 1.35;
   margin: 0 0 2px 0;
 }
-.contact-teaser {
-  float: left;
-}
-
-.contactcontainer {
+.contact__container {
   width: 55%;
   float: right;
   margin-bottom: 20px;
 }
-
-.contactname {
+.contact__p__name {
   font-size: 15px;
 }
 .telefonnumber {
@@ -287,19 +286,23 @@ hr {
   text-decoration: none;
   color: #34a7f3;
 }
-.contact-underline {
+.contact__hr__bottom {
   clear: right;
   margin-top: 40px;
   color: rgb(211, 211, 211);
 }
+.documenttypes {
+  display: none;
+}
 /*teaserrow***************************************/
-.teaser {
+
+/*first teaser*************************************/
+.firstteaser {
   max-width: 100%;
   color: rgb(90, 90, 90);
   background-color: white;
+  margin: 0 16px;
 }
-
-/*first teaser*************************************/
 .greybox {
   width: 100%;
   padding-bottom: 24px;
@@ -326,18 +329,18 @@ hr {
 
 /*secondteaser**************************************/
 .secondteaser {
-  margin-top: 50px;
+  margin: 50px 16px 0 16px;
 }
-.headline-2teaser {
+.secondteaser__container__left__headline {
   font-weight: 300;
   font-size: 20px;
   color: rgb(124, 124, 124);
   margin-bottom: 6px;
 }
-.secondteaser-image {
+.secondteaser__container__left__image {
   width: 100%;
 }
-.headline-testvideo {
+.secondteaser__container__right__headline {
   font-weight: 300;
   font-size: 20px;
   color: rgb(124, 124, 124);
@@ -354,7 +357,10 @@ hr {
 }
 
 /*thirdteaser***************************************/
-.headline-3teaser {
+.thirdteaser {
+  margin: 0 16px;
+}
+.thirdteaser__headline {
   font-weight: 300;
   color: rgb(124, 124, 124);
   font-size: 28px;
@@ -406,20 +412,20 @@ footer a {
 
 @media screen and (min-width: 480px) {
   /*navigation****************************/
-  .ul-nav {
-    visibility: visible;
+  nav ul {
     padding-left: 16px;
+    display: block;
   }
-  .ul-nav li a {
+  nav ul li a {
     color: #34a7f3;
     text-decoration: none;
     font-size: 20px;
   }
-  .ul-nav li a:hover {
+  nav ul li a:hover {
     color: #2a82bd;
     text-decoration: none;
   }
-  .ul-nav li {
+  nav ul li {
     list-style-type: none;
     padding: 5px 7.5px 5px 5px;
     float: left;
@@ -431,14 +437,14 @@ footer a {
   .stage {
     clear: left;
   }
-  .headline1 {
+  .article__headline {
     font-size: 34px;
   }
   /*sections****************************/
-  .headline-imagesection {
+  .imagesection__headline {
     font-size: 26px;
   }
-  .image-imagesection {
+  .imagesection__image {
     width: 45%;
     float: left;
     padding: 0 26px 0px 0;
@@ -448,24 +454,31 @@ footer a {
   }
   /*format types****************************/
 
-  .buttoninformation {
+  .form__p {
     float: right;
   }
   .image-documentlist {
     width: 70%;
     margin: auto;
   }
-  .headline-testvideo {
+  .secondteaser__container__right__headline {
     margin-top: 44px;
   }
   .video {
     width: 100%;
   }
   /*Contactcontainer****************************/
-  .contactcontainer {
-    width: 70%;
+  .contact__image {
+    width: 30%;
   }
-  /*Contactcontainer****************************/
+  .contact__container {
+    width: 60%;
+  }
+  /*documenttypes*/
+  .documenttypes {
+    display: block;
+  }
+  /*documentlist****************************/
   .image-documentlist {
     margin: 40px 0 20px 0;
   }
@@ -476,15 +489,18 @@ footer a {
 }
 
 @media screen and (min-width: 600px) {
-  .image-imagesection {
+  .imagesection__image {
     margin: 6px 10px 20px 0px;
   }
 
-  .buttoninformation {
+  .form__p {
     margin-top: 26px;
   }
-  .contactcontainer {
-    width: 74%;
+  .contact__image {
+    width: 20%;
+  }
+  .contact__container {
+    width: 70%;
   }
   .teaserimage {
     width: 45%;
@@ -504,15 +520,15 @@ footer a {
     font-weight: 700;
   }
 
-  .teaser2-container1 {
+  .secondteaser__container__left {
     width: 47.5%;
     float: left;
   }
-  .teaser2-container {
+  .secondteaser__container__right {
     width: 47.5%;
     float: right;
   }
-  .headline-testvideo {
+  .secondteaser__container__right__headline {
     margin-bottom: 6px;
     margin-top: 18px;
   }
@@ -536,12 +552,8 @@ footer a {
 
 @media screen and (min-width: 768px) {
   /*stage***********************************/
-  .stageimage {
+  .stage__image {
     height: 270px;
-  }
-  .stageimage-container {
-    width: 100%;
-    position: relative;
   }
   .stage {
     background-color: white;
@@ -549,8 +561,8 @@ footer a {
     margin-top: 60px;
     height: 240px;
   }
-  .bluebox {
-    padding: 10px 0px 20px 0px;
+  .stage__bluebox {
+    padding: 10px 0px 20px 16px;
     background-color: #199bf1;
     width: 300px;
     height: 130px;
@@ -558,13 +570,10 @@ footer a {
     right: 40px;
     bottom: 30px;
   }
-  .innerbluebox {
-    padding-left: 45px;
-  }
-  .imagetext {
+  .stage__bluebox__p {
     margin-bottom: 0;
   }
-  .button {
+  .stage__bluebox__button {
     margin-top: 8px;
     padding: 0px 90px 0px 0px;
     font-size: 18px;
@@ -573,11 +582,17 @@ footer a {
   main {
     margin-top: 60px;
   }
-  .citation {
+  .formatsection__citation {
     margin: 40px 0 0 40px;
   }
+  .contact__image {
+    width: 15%;
+  }
+  .contact__container {
+    width: 80%;
+  }
   /*form***********************************/
-  .form1 {
+  .form {
     display: none;
   }
   .form2 {
@@ -616,13 +631,13 @@ footer a {
     height: 60px;
     margin-top: 20px;
   }
-  .headline-form {
+  .form__headline {
     font-family: "Lato", sans-serif;
     font-weight: 300;
     font-size: 26px;
     color: rgb(124, 124, 124);
   }
-  .headline-form textarea {
+  .form__headline textarea {
     width: 100%;
   }
   select {
@@ -630,27 +645,27 @@ footer a {
   }
   /*documenttypes***********************************/
   .documenttypes {
-    margin-bottom: 0px;
+    margin: 0px 16px;
   }
-  .headline-documenttypes {
+  .documenttypes__headline {
     font-family: "Lato", sans-serif;
     font-weight: 300;
     font-size: 20px;
     color: rgb(124, 124, 124);
   }
-  .doctype img {
+  .documenttypes__doctype img {
     width: 7.5%;
     float: left;
     margin-right: 10px;
   }
-  .doctype > h4 {
+  .documenttypes__doctype > h4 {
     margin-top: 10px;
     margin-bottom: 0px;
     color: #34a7f3;
     font-weight: 300;
     font-size: 15px;
   }
-  .doctype > p {
+  .documenttypes__doctype > p {
     margin-top: 10px;
     margin-bottom: 0px;
     color: #cacaca;
@@ -661,33 +676,34 @@ footer a {
 
 @media screen and (min-width: 1024px) {
   /*navigation*/
-  .ul-nav {
+  nav ul {
     margin: 0 0 0 0;
   }
   /*stage*/
   .stage {
     margin-top: 50px;
   }
-  .stageimage {
+  .stage__image {
     height: 300px;
   }
-  .bluebox {
+  .stage__bluebox {
     position: absolute;
     right: 40px;
     bottom: 30px;
+    margin: 0 16px;
   }
   .breadcrumb {
     margin-top: 60px;
   }
   /*main*/
-  .headline1 {
+  .article__headline {
     font-size: 42px;
   }
   /*contactinformation*/
-  .contactimage {
+  .contact__image {
     width: 30%;
   }
-  .contactcontainer {
+  .contact__container {
     width: 60%;
   }
   /*wrapper for article and aside*/
@@ -696,7 +712,7 @@ footer a {
     grid-template-columns: 3fr 1fr;
   }
   /*documenttypes list*/
-  .doctype img {
+  .documenttypes__doctype img {
     width: 14%;
     float: left;
     margin-right: 10px;
@@ -718,10 +734,14 @@ footer a {
   .grid-item2 {
     grid-column: 1;
   }
+  /*footer*/
+  footer {
+    height: 120px;
+  }
 }
 
 @media screen and (min-width: 1600px) {
-  .stageimage {
+  .stage__image {
     height: 400px;
   }
   .breadcrumb {
@@ -734,20 +754,15 @@ footer a {
   .greybox {
     z-index: 20;
   }
-  .bluebox {
+  .stage__bluebox {
     position: absolute;
     right: 80px;
     bottom: 50px;
   }
-  .bluebox {
+  .stage__bluebox {
     padding: 100px 0px 20px 100px;
     background-color: #199bf1;
     width: 300px;
     height: 130px;
-  }
-  .innerbluebox {
-    position: absolute;
-    right: 160px;
-    bottom: 100px;
   }
 }
