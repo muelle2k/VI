@@ -592,12 +592,6 @@ footer a {
     width: 80%;
   }
   /*form***********************************/
-  .form {
-    display: none;
-  }
-  .form2 {
-    display: block;
-  }
   .gridform {
     display: grid;
     grid-template-columns: 1fr 2fr;
