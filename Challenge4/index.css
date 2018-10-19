@@ -36,6 +36,9 @@ body header {
   font-size: 14px;
   margin-bottom: 26px;
 }
+.stageimage {
+  width: 100%;
+}
 .image {
   max-width: 100%;
 }
