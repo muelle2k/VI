@@ -526,3 +526,128 @@ footer a {
     margin-top: 0;
   }
 }
+
+@media screen and (min-width: 768px) {
+  /*stage***********************************/
+  .stageimage {
+    height: 270px;
+  }
+  .stageimage-container {
+    width: 100%;
+    position: relative;
+  }
+  .stage {
+    background-color: white;
+    margin-bottom: 0px;
+    margin-top: 60px;
+    height: 240px;
+  }
+  .bluebox {
+    padding: 10px 0px 20px 0px;
+    background-color: #199bf1;
+    width: 300px;
+    height: 130px;
+    position: absolute;
+    right: 40px;
+    bottom: 30px;
+  }
+  .innerbluebox {
+    padding-left: 45px;
+  }
+  .imagetext {
+    margin-bottom: 0;
+  }
+  .button {
+    margin-top: 8px;
+    padding: 0px 90px 0px 0px;
+    font-size: 18px;
+  }
+  /*main***********************************/
+  main {
+    margin-top: 60px;
+  }
+  .citation {
+    margin: 40px 0 0 40px;
+  }
+  /*form***********************************/
+  .form1 {
+    display: none;
+  }
+  .form2 {
+    display: block;
+  }
+  .gridform {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+  }
+  .form2 {
+    max-width: 100%;
+    color: rgb(90, 90, 90);
+    background-color: white;
+    margin-top: 55px;
+  }
+  .leftformpart p {
+    margin: 0 0 35px 0;
+  }
+  .rightformpart > input[type="text"] {
+    width: 100%;
+    height: 30px;
+    margin-top: 20px;
+  }
+  .rightformpart > input[type="number"] {
+    width: 100%;
+    height: 30px;
+    margin-top: 20px;
+  }
+  .rightformpart > input[type="email"] {
+    width: 100%;
+    height: 30px;
+    margin-top: 20px;
+  }
+  .rightformpart textarea {
+    width: 100%;
+    height: 60px;
+    margin-top: 20px;
+  }
+  .headline-form {
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-size: 26px;
+    color: rgb(124, 124, 124);
+  }
+  .headline-form textarea {
+    width: 100%;
+  }
+  select {
+    width: 100%;
+  }
+  /*documenttypes***********************************/
+  .documenttypes {
+    margin-bottom: 0px;
+  }
+  .headline-documenttypes {
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    color: rgb(124, 124, 124);
+  }
+  .doctype img {
+    width: 7.5%;
+    float: left;
+    margin-right: 10px;
+  }
+  .doctype > h4 {
+    margin-top: 10px;
+    margin-bottom: 0px;
+    color: #34a7f3;
+    font-weight: 300;
+    font-size: 15px;
+  }
+  .doctype > p {
+    margin-top: 10px;
+    margin-bottom: 0px;
+    color: #cacaca;
+    font-weight: 300;
+    font-size: 14px;
+  }
+}
