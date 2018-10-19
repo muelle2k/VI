@@ -711,3 +711,35 @@ footer a {
     grid-column: 1;
   }
 }
+
+@media screen and (min-width: 1600px) {
+  .stageimage {
+    height: 400px;
+  }
+  .breadcrumb {
+    margin-top: 160px;
+  }
+  .wholecontent {
+    width: 1280px;
+    margin: auto;
+  }
+  .greybox {
+    z-index: 20;
+  }
+  .bluebox {
+    position: absolute;
+    right: 80px;
+    bottom: 50px;
+  }
+  .bluebox {
+    padding: 100px 0px 20px 100px;
+    background-color: #199bf1;
+    width: 300px;
+    height: 130px;
+  }
+  .innerbluebox {
+    position: absolute;
+    right: 160px;
+    bottom: 100px;
+  }
+}
