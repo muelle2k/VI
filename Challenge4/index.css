@@ -61,14 +61,17 @@ body header {
 
 /*breadcrumb**************************************/
 .breadcrumb {
+  margin-top: 20px;
+}
+.ul-breadcrumb {
   list-style: none;
   background-color: white;
   padding-left: 0px;
 }
-.breadcrumb li {
+.ul-breadcrumb li {
   float: left;
 }
-.breadcrumb li a {
+.ul-breadcrumb li a {
   text-decoration: none;
   padding-left: 15px;
   font-size: 14px;
