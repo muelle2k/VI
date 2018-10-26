@@ -1,0 +1,425 @@
+@import url("https://fonts.googleapis.com/css?family=Lato");
+html {
+  background-color: rgb(41, 41, 41);
+}
+body {
+  max-width: 320px;
+  margin: auto;
+  font-family: "Lato", sans-serif;
+  color: rgb(124, 124, 124);
+  background-color: white;
+}
+
+/*header with search****************************/
+body header {
+  max-width: 100%;
+  height: 50px;
+  background-color: white;
+}
+.inputsearch {
+  background-color: rgba(228, 224, 224, 0.815);
+  position: relative;
+  left: 90px;
+  top: 10px;
+  border: 1px solid gainsboro;
+  border-radius: 8px;
+}
+.innerbox {
+  margin: 0px 16px 0px 16px;
+}
+
+/*stage****************************************/
+.stage {
+  background-color: #199bf1;
+  color: white;
+  padding-bottom: 30px;
+  font-size: 14px;
+  margin-bottom: 26px;
+}
+.image {
+  max-width: 100%;
+}
+.headline {
+  font-size: 22px;
+}
+.headline + p {
+  font-size: 16px;
+}
+.button {
+  margin-top: 8px;
+  background-color: white;
+  border: solid white;
+  color: #34a7f3;
+  padding-right: 80px;
+  padding-bottom: 10px;
+  font-size: 18px;
+  padding-top: 3px;
+}
+
+/*breadcrumb**************************************/
+.breadcrumb {
+  list-style: none;
+  background-color: white;
+  float: left;
+  padding-left: 0px;
+}
+.breadcrumb li {
+  float: left;
+}
+.breadcrumb li a {
+  text-decoration: none;
+  padding-left: 15px;
+  font-size: 14px;
+}
+.bluelist {
+  color: #34a7f3;
+}
+.greylist {
+  color: rgb(168, 168, 168);
+}
+
+/*general information for the sections**************/
+.top-article {
+  max-width: 100%;
+  background-color: white;
+  padding-bottom: 1px;
+}
+.headline1 {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  margin-top: px;
+}
+.headline-section {
+  font-size: 26px;
+  font-weight: 300;
+}
+
+.content-section {
+  font-weight: 400;
+  color: rgb(75, 75, 75);
+}
+
+/*videosection************************************/
+.videosection {
+  margin-top: 40px;
+}
+.headline-section {
+  font-size: 27px;
+  font-family: "Lato", sans-serif;
+  font-weight: 100;
+  color: rgb(124, 124, 124);
+}
+.video {
+  max-width: 100%;
+  height: 160px;
+}
+
+/*formatsection***********************************/
+.formatsection {
+  /*max-width: 100%;
+  height: 700px;
+  margin-top: -26px;*/
+  padding-top: 5px;
+  color: rgb(75, 75, 75);
+  background-color: white;
+}
+.p-formatsection {
+  font-size: 26px;
+}
+.ul li {
+  padding-bottom: 10px;
+  position: relative;
+  left: -15px;
+}
+.ul-link {
+  padding-bottom: 10px;
+  position: relative;
+  left: -15px;
+}
+
+.ul-link li a {
+  color: #34a7f3;
+  display: block;
+  margin-bottom: 20px;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+/*table*******************************************/
+.table {
+  font-size: 16px;
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid silver;
+  text-align: left;
+}
+.table-1column {
+  background-color: #34a7f3;
+  border: 1px solid silver;
+  color: white;
+  padding: 10px 0 10px 6px;
+}
+tr td {
+  border: 1px solid silver;
+  padding: 10px 0 10px 6px;
+}
+.citation {
+  font-family: "Lato", sans-serif;
+  font-weight: 100;
+  font-size: 26px;
+  color: rgb(168, 168, 168);
+}
+
+/*form******************************************/
+.form {
+  max-width: 100%;
+  color: rgb(90, 90, 90);
+  background-color: white;
+}
+.headline-form {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-size: 26px;
+  color: rgb(124, 124, 124);
+}
+.headline-form textarea {
+  width: 100%;
+}
+select {
+  width: 100%;
+  padding: 10px 0px 10px 0px;
+}
+input[email] {
+  width: 100%;
+  padding: 10px 0px 10px 0px;
+}
+hr {
+  margin-top: 20px;
+  color: rgb(211, 211, 211);
+}
+.sendbutton {
+  margin-top: 20px;
+  color: white;
+  background-color: #34a7f3;
+  padding: 5px 5px 5px 5px;
+  border: 1px solid gainsboro;
+}
+.cancelbutton {
+  margin-top: 20px;
+  color: white;
+  background-color: #aaaaaa;
+  padding: 5px 5px 5px 5px;
+  border: 1px solid gainsboro;
+}
+.buttoninformation {
+  margin-top: 1px;
+}
+
+/*aside contactinformation***********************/
+.left-aside {
+  max-width: 100%;
+  background-color: white;
+  color: rgb(90, 90, 90);
+}
+.headline-contactsection {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  color: rgb(124, 124, 124);
+}
+.contact-upperline {
+  margin-bottom: 20px;
+  color: rgb(211, 211, 211);
+}
+.contactimage {
+  float: left;
+}
+.contactinformation {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-size: 15px;
+  color: rgb(90, 90, 90);
+  line-height: 1.35;
+  margin-top: 0px;
+}
+.contact-teaser {
+  float: left;
+}
+
+.contactcontainer {
+  width: 55%;
+  float: right;
+  margin-bottom: 20px;
+}
+
+.contactname {
+  font-size: 15px;
+  margin-top: -10px;
+  margin-bottom: 35px;
+}
+.telefonnumber {
+  font-size: 15px;
+  margin-top: -10px;
+}
+.link {
+  text-decoration: none;
+  color: #34a7f3;
+}
+.contact-underline {
+  clear: right;
+  margin-top: 40px;
+  color: rgb(211, 211, 211);
+}
+
+/*teaserrow***************************************/
+.teaser {
+  max-width: 100%;
+  color: rgb(90, 90, 90);
+  background-color: white;
+}
+
+/*first teaser*************************************/
+.greybox {
+  width: 100%;
+  background-color: rgb(109, 109, 109);
+}
+.teaserimage {
+  width: 100%;
+  margin-top: 28px;
+  border: 1px solid rgb(168, 168, 168);
+}
+.headline-teaser {
+  font-weight: 300;
+  font-size: 24px;
+  color: rgb(124, 124, 124);
+}
+.headline-teaser + p {
+  font-weight: 700;
+  color: rgb(109, 109, 109);
+}
+.link {
+  text-decoration: none;
+  color: #34a7f3;
+}
+
+/*secondteaser**************************************/
+.secondteaser {
+  margin-top: 50px;
+}
+.headline-2teaser {
+  font-weight: 300;
+  font-size: 20px;
+  color: rgb(124, 124, 124);
+  margin-bottom: 6px;
+}
+.secondteaser-image {
+  width: 100%;
+}
+.headline-testvideo {
+  font-weight: 300;
+  font-size: 20px;
+  color: rgb(124, 124, 124);
+  margin-bottom: 4px;
+}
+.videolength {
+  float: right;
+  color: #cacaca;
+}
+.teaser-underline {
+  margin-top: 80px;
+  clear: right;
+  color: #cacaca;
+}
+
+/*thirdteaser***************************************/
+.headline-3teaser {
+  font-weight: 300;
+  color: rgb(124, 124, 124);
+  font-size: 28px;
+}
+.headline-testvid {
+  font-weight: 300;
+  font-size: 20px;
+  color: rgb(124, 124, 124);
+  margin-bottom: 4px;
+}
+.videocaption {
+  margin-top: 36px;
+}
+.videocaption + h3 {
+  margin-top: 36px;
+  font-weight: 300;
+  font-size: 20px;
+  color: rgb(124, 124, 124);
+}
+.videocaption + h3 + p {
+  margin-top: -15px;
+}
+/*footer********************************************/
+footer {
+  max-width: 100%;
+  height: 120px;
+  background-color: rgba(68, 70, 82, 0.863);
+  color: white;
+  margin-top: 90px;
+}
+footer h3 {
+  font-weight: 100;
+  font-size: 15px;
+  margin-top: 0px;
+  padding-top: 20px;
+}
+footer a {
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+  padding-bottom: 10px;
+}
+.links {
+  float: left;
+}
+
+/*
+@media screen and (min-max-width: 1600px) {
+  body header {
+    max-width: 1600px;
+    height: 125px;
+    margin-bottom: 4px;
+  }
+
+  .stage {
+    max-width: 1280px;
+    height: 400px;
+  }
+  .breadcrumb {
+    max-width: 1200px;
+    height: 45px;
+  }
+  .center {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .top-article {
+    max-width: 890px;
+    height: 2000px;
+  }
+  .left-aside {
+    max-width: 300px;
+    height: 2000px;
+    margin-left: 10px;
+  }
+  .teaser {
+    max-width: 1600px;
+    height: 1800px;
+    margin-bottom: 10px;
+  }
+  footer {
+    max-width: 1600px;
+    height: 80px;
+  }
+  .centered {
+    display: grid;
+    justify-items: center;
+  }
+}*/
