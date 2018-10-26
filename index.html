@@ -13,14 +13,14 @@
     <!-- Place favicon.ico in the root directory -->
 
     <link rel="stylesheet" href="normalize.css">
-    <link rel="stylesheet" type="text/css" href="index.css" />
+    <link rel="stylesheet" type="text/css" href="css/index.css" />
 </head>
 
 <body>
 
     <header>
         <div class="searchInput">
-            <input class="inputsearch" type="search" placeholder="Search">
+            <input type="search" placeholder="Search">
             <button>
                 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 32 32">
                     <title>search</title>
@@ -33,8 +33,8 @@
         </div>
         <nav id="navigation">
             <ul>
-                <li><a href="#imagesection">Image Section</a></li>
-                <li><a href="#videosection">Video Section</a></li>
+                <li><a href="#imageSection">Image Section</a></li>
+                <li><a href="#videoSection">Video Section</a></li>
                 <li><a href="#formattypes">Format types</a></li>
                 <li><a href="#form">Form inputs</a></li>
                 <li><a href="#teaser">Teasers</a></li>
@@ -52,19 +52,19 @@
     </div>
 
     <div class="breadcrumb">
-        <ul class="breadcrumb__ul">
+        <ul>
             <li><svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 32 32">
                     <title>arrow-right2</title>
                     <path class="breadcrumb__arrowIcon" d="M19.414 27.414l10-10c0.781-0.781 0.781-2.047 0-2.828l-10-10c-0.781-0.781-2.047-0.781-2.828 0s-0.781 2.047 0 2.828l6.586 6.586h-19.172c-1.105 0-2 0.895-2 2s0.895 2 2 2h19.172l-6.586 6.586c-0.39 0.39-0.586 0.902-0.586 1.414s0.195 1.024 0.586 1.414c0.781 0.781 2.047 0.781 2.828 0z"></path>
-                </svg><a class="breadcrumb__li" href="#">Home</a></li>
+                </svg><a class="breadcrumb__link" href="#">Home</a></li>
             <li><svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 32 32">
                     <title>arrow-right2</title>
                     <path class="breadcrumb__arrowIcon" d="M19.414 27.414l10-10c0.781-0.781 0.781-2.047 0-2.828l-10-10c-0.781-0.781-2.047-0.781-2.828 0s-0.781 2.047 0 2.828l6.586 6.586h-19.172c-1.105 0-2 0.895-2 2s0.895 2 2 2h19.172l-6.586 6.586c-0.39 0.39-0.586 0.902-0.586 1.414s0.195 1.024 0.586 1.414c0.781 0.781 2.047 0.781 2.828 0z"></path>
-                </svg><a class="breadcrumb__li" href="#">Test Folder</a></li>
+                </svg><a class="breadcrumb__link" href="#">Test Folder</a></li>
             <li><svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 32 32">
                     <title>arrow-right2</title>
                     <path class="breadcrumb__arrowIcon" d="M19.414 27.414l10-10c0.781-0.781 0.781-2.047 0-2.828l-10-10c-0.781-0.781-2.047-0.781-2.828 0s-0.781 2.047 0 2.828l6.586 6.586h-19.172c-1.105 0-2 0.895-2 2s0.895 2 2 2h19.172l-6.586 6.586c-0.39 0.39-0.586 0.902-0.586 1.414s0.195 1.024 0.586 1.414c0.781 0.781 2.047 0.781 2.828 0z"></path>
-                </svg><a class="breadcrumb__li" href="#">Test</a></li>
+                </svg><a class="breadcrumb__link" href="#">Test</a></li>
         </ul>
     </div>
 
@@ -74,10 +74,10 @@
                 <h1>Fundamentals I: Layout, Styling & Semantics</h1>
 
                 <section>
-                    <div class="imagesection">
-                        <h2 id="imagesection" class="imagesection__headline">Image section (Landscape, no caption)</h2>
-                        <img class="image imagesection__image" src="imgs/imagesection.png" alt="480 240 image">
-                        <p class="imagesection__text">Lorem ipsum dolor sit amet consetetur adipisicing elit.
+                    <div class="imageSection">
+                        <h2 id="imageSection" class="imageSection__headline">Image section (Landscape, no caption)</h2>
+                        <img class="image imageSection__image" src="imgs/imageSection.png" alt="480 240 image">
+                        <p class="imageSection__text">Lorem ipsum dolor sit amet consetetur adipisicing elit.
                             Facere,
                             quibusdam! Quibusdam incidunt illo
                             ab libero. Illum laudantium soluta ullam tempore officia numquam, harum, incidunt quis
@@ -110,10 +110,10 @@
                 </section>
 
                 <section>
-                    <div class="videosection">
-                        <h2 id="videosection" class="videosection__headline">Video section</h2>
-                        <video class="videosection__video" controls></video>
-                        <p class="videosection__text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    <div class="videoSection">
+                        <h2 id="videoSection" class="videoSection__headline">Video section</h2>
+                        <video class="videoSection__video" controls></video>
+                        <p class="videoSection__text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
                             Facere,
                             quibusdam! Quibusdam incidunt illo
                             ab libero. Illum laudantium soluta ullam tempore officia numquam, harum, incidunt quis
@@ -147,23 +147,23 @@
                 </section>
 
                 <section id="formattypes">
-                    <div class="formatsection">
+                    <div class="formatBlock">
                         <h2>Copy text with all format types</h2>
                         <p>This is a blind text. <strong>Bold text makes you pay attention.</strong> <sub>Sub</sub>scripts
                             and <sup>Super</sup>script
                             look funny.</p>
-                        <ul class="formatsection__ul">
+                        <ul class="formatBlock__ul">
                             <li>Some</li>
                             <li>Circles</li>
                         </ul>
-                        <ul class="formatsection__link">
+                        <ul class="formatBlock__links">
                             <li><a href="#">This link leads to the CI.</a></li>
                             <li><a href="#">This link leads to the CI in a new window.</a></li>
                         </ul>
-                        <table class="formatsection__table">
+                        <table>
                             <tr>
-                                <th class="formatsection__column">Super Nice</th>
-                                <th class="formatsection__column">Duper Table</th>
+                                <th>Super Nice</th>
+                                <th>Duper Table</th>
                             </tr>
                             <tr>
                                 <td>Super</td>
@@ -174,46 +174,44 @@
                                 <td>Table</td>
                             </tr>
                         </table>
-                        <p class="formatsection__citation">Someone once said inspiring stuff like this</p>
+                        <p class="formatBlock__citation">Someone once said inspiring stuff like this</p>
                     </div>
                 </section>
 
                 <section>
-                    <div class="formsection">
-                        <form id="form">
-                            <div class="form__container">
-                                <h2 class="form__headline">Form</h2>
+                    <form id="form">
+                        <div class="form__gridLayout">
+                            <h2 class="form__headline">Form</h2>
 
-                                <label class="label">Text</label>
-                                <input type="text">
-                                <label class="label">Text mandatory*</label>
-                                <input type="text">
-                                <label class="label">Number</label>
-                                <input type="number">
-                                <label class="label">text area</label>
-                                <textarea name="textarea"></textarea>
+                            <label class="label">Text</label>
+                            <input type="text">
+                            <label class="label">Text mandatory*</label>
+                            <input type="text">
+                            <label class="label">Number</label>
+                            <input type="number">
+                            <label class="label">text area</label>
+                            <textarea name="textarea"></textarea>
 
-                                <label class="label">checkbox</label>
-                                <label class="form__checkbox"><input type="checkbox"><span>yes</span></label>
-                                <label class="form__checkbox"><input type="checkbox"><span>no</span></label>
-                                <div class="form__spacebetween"></div>
-                                <label class="label">radio</label>
-                                <label class="form__radio"><input type="radio"><span>yes</span></label>
-                                <label class="form__radio"><input type="radio"><span>no</span></label>
-                                <div class="form__spacebetween"></div>
-                                <label class="label">select box</label>
-                                <select>
-                                    <option value="yes"><label>yes</label></option>
-                                    <option value="no"><label>no</label></option>
-                                </select>
-                                <label class="label">email field (mandatory)*</label>
-                                <input type="email">
-                            </div>
-                            <button class="form__button send">Send</button>
-                            <button class="form__button cancel">Cancel</button>
-                            <p class="form__p">All field marked with an asterik(*) are mandatory.</p>
-                        </form>
-                    </div>
+                            <label class="label">checkbox</label>
+                            <label class="form__checkbox"><input type="checkbox"><span>yes</span></label>
+                            <label class="form__checkbox"><input type="checkbox"><span>no</span></label>
+                            <div class="form__spacebetween"></div>
+                            <label class="label">radio</label>
+                            <label class="form__radio"><input type="radio"><span>yes</span></label>
+                            <label class="form__radio"><input type="radio"><span>no</span></label>
+                            <div class="form__spacebetween"></div>
+                            <label class="label">select box</label>
+                            <select>
+                                <option value="yes"><label>yes</label></option>
+                                <option value="no"><label>no</label></option>
+                            </select>
+                            <label class="label">email field (mandatory)*</label>
+                            <input type="email">
+                        </div>
+                        <button class="form__button send">Send</button>
+                        <button class="form__button cancel">Cancel</button>
+                        <p>All field marked with an asterik(*) are mandatory.</p>
+                    </form>
                 </section>
             </article>
 
@@ -221,20 +219,18 @@
                 <section>
                     <div class="contact">
                         <h2 class="contact__headline">Subheadline lorem ipsum</h2>
-                        <hr class="contact__hr--top">
                         <img class="contact__image" src="https://dummyimage.com/120x160/cfcfcf/fcfcfc.png" alt="contact image">
                         <div class="contact__container">
-                            <p class="contact__p">Contact No.3, whose name is even a little bit longer, it will
+                            <p class="contact__text">Contact No.3, whose name is even a little bit longer, it will
                                 definitely cause a line break. In fact it is really really really long. Longer than
                                 anything else. </p>
                             <p class="contact__name">Mock Contact Manager</p>
-                            <div class="telefon">
-                                <p class="contact__telefonnumber">T +49 13 24 54657</p>
-                                <p class="contact__telefonnumber">F +49 98 76 54321</p>
+                            <div class="contact__telefon">
+                                <p class="contact__item">T +49 13 24 54657</p>
+                                <p class="contact__item">F +49 98 76 54321</p>
                             </div>
                             <a class="contact__email" href="#">Send E-Mail</a>
                         </div>
-
                     </div>
                 </section>
 
@@ -242,42 +238,42 @@
                     <div class="documenttypes">
                         <h2 class="documenttypes__headline">All Document Types</h2>
                         <ul>
-                            <li class="documenttypes__doctype">
+                            <li>
                                 <img src="svg/pdf.svg" alt="pdf File">
                                 <h4>PDF - Title</h4>
                                 <p>Mar 07,2017 | PDF | 88kb
                                 </p>
                             </li>
-                            <li class="documenttypes__doctype">
+                            <li>
                                 <img src="svg/image.svg" alt="image file">
                                 <h4>Image (JPG, GIF, EPS) - Title</h4>
                                 <p>Mar 19,2015 | JPG | 1.49mb</p>
                             </li>
-                            <li class="documenttypes__doctype">
+                            <li>
                                 <img src="svg/zip.svg" alt="zip download file">
                                 <h4>Zip - Download</h4>
                                 <p>Auf 03, 2009 | ZIP | 566kb
                                 </p>
                             </li>
-                            <li class="documenttypes__doctype">
+                            <li>
                                 <img src="svg/word.svg" alt="word file">
                                 <h4>Word - Document Title</h4>
                                 <p>Mar 07,2017 | DOC | 80kb
                                 </p>
                             </li>
-                            <li class="documenttypes__doctype">
+                            <li class="documenttypes__item">
                                 <img src="svg/excel.svg" alt="excel file">
                                 <h4>Excel - Document Title</h4>
                                 <p>Sep 29,2014 | XLSX | 169kb
                                 </p>
                             </li>
-                            <li class="documenttypes__doctype">
+                            <li>
                                 <img src="svg/video.svg" alt="video file">
                                 <h4>Video - Title</h4>
                                 <p>Jan 31,2011 | MP4 | 254mb
                                 </p>
                             </li>
-                            <li class="documenttypes__doctype">
+                            <li>
                                 <img src="svg/other.svg" alt="other files">
                                 <h4>Other - Document Title</h4>
                                 <p>Jun 12,2007 | MDI | 127kb
@@ -290,25 +286,25 @@
         </div>
 
         <section>
-            <div class="greybox">
-                <div id="teaser" class="firstteaser">
-                    <img class="firstteaser__image" src="https://dummyimage.com/1500x1000/cfcfcf/fcfcfc.png" alt="teaser image">
-                    <div class="firstteaser__container">
-                        <h2 class="firstteaser__headline">teaserrow with default teaser with image and link (new
+            <div class="coloredWrapper">
+                <div id="teaser" class="textImageTeaser">
+                    <img class="textImageTeaser__image" src="https://dummyimage.com/1500x1000/cfcfcf/fcfcfc.png" alt="teaser image">
+                    <div class="textImageTeaser__container">
+                        <h2 class="textImageTeaser__headline">teaserrow with default teaser with image and link (new
                             window)</h2>
                         <p>Set highlight for current Teaser [yes] > element-settings</p>
-                        <a class="firstteaser__link" href="#">open in new window</a>
+                        <a class="textImageTeaser__link" href="#">open in new window</a>
                     </div>
                 </div>
             </div>
         </section>
 
         <section>
-            <div class="secondteaser">
-                <div class="secondteaser__container--left">
-                    <h2 class="secondteaser__headline">2 teaser</h2>
+            <div class="twoRowTeaser">
+                <div class="twoRowTeaser__container--left">
+                    <h2 class="twoRowTeaser__headline">2 teaser</h2>
                     <img class="image" src="https://dummyimage.com/768x432/cfcfcf/fcfcfc.png" alt="">
-                    <p class="secondteaser__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Non
+                    <p class="twoRowTeaser__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Non
                         necessitatibus
                         voluptatem
                         sunt
@@ -330,34 +326,33 @@
                 </div>
 
 
-                <div class="secondteaser__container--right">
-                    <h2 class="secondteaser__headline">Test Video</h2>
+                <div class="twoRowTeaser__container--right">
+                    <h2 class="twoRowTeaser__headline">Test Video</h2>
                     <img class="image" src="https://dummyimage.com/768x432/cfcfcf/fcfcfc.png" alt="">
                     <p class="videolength">3:06</p>
                 </div>
-                <hr class="secondteaser__hr">
             </div>
         </section>
 
         <section>
-            <div class="thirdteaser">
-                <h2 class="thirdteaser__headline">
+            <div class="threeRowTeaser">
+                <h2 class="threeRowTeaser__headline">
                     Teaserrow with 3 Teaser: First teaser is a video Teaser
                 </h2>
 
-                <div class="thirdteaser__wrapper">
+                <div class="threeRowTeaser__wrapper">
                     <div>
-                        <h3 class="thirdteaser__h3">testvid</h3>
+                        <h3 class="threeRowTeaser__h3">testvid</h3>
                         <video class="video" controls></video>
                         <p class="videolength">3:06</p>
                     </div>
 
-                    <div class="thirdteaser__p">
+                    <div class="threeRowTeaser__p">
                         <p>this is a test video</p>
                     </div>
 
-                    <div class="thirdteaser__text">
-                        <h3 class="thirdteaser__h3">default teaser with text</h3>
+                    <div class="threeRowTeaser__text">
+                        <h3 class="threeRowTeaser__h3">default teaser with text</h3>
                         <p class="teaser__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque
                             necessitatibus minima
                             dignissimos dicta. Doloribus, pariatur consectetur repellendus magnam, adipisci
@@ -371,10 +366,10 @@
                         </p>
                     </div>
 
-                    <div class="thirdteaser__documentlist">
-                        <h3 class="thirdteaser__h3">Document list</h3>
+                    <div class="threeRowTeaser__documentlist">
+                        <h3>Document list</h3>
 
-                        <div class="thirdteaser__doctype">
+                        <div class="threeRowTeaser__doctype">
                             <img src="svg/pdf.svg" alt="pdf file">
                             <h4>PDF - Title</h4>
                             <p>Mar 07,2017 | PDF | 88kb
